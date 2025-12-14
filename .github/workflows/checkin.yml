@@ -69,7 +69,7 @@ jobs:
         restore-keys: |
           balance-hash-
 
-    - name: 执行签到
+    - name: 执行签到😊
       env:
         ANYROUTER_ACCOUNTS: ${{ secrets.ANYROUTER_ACCOUNTS }}
         PROVIDERS: ${{ secrets.PROVIDERS }}
